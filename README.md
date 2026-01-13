@@ -1,11 +1,10 @@
 PP – QA Mobile Automation Engineer – Challenge
 
-Application: https://the-internet.herokuapp.com/login
+Application Under Test: https://the-internet.herokuapp.com/login
+Context: Page treated as a mobile application login screen
 
-Context: Treat as a mobile login screen
-
-🅰️ Part A — Manual & Exploratory Testing
-1️⃣ Manual Test Cases (ONLY 2)
+Part A — Manual & Exploratory Testing
+1) Manual Test Cases (ONLY 2)
 ✅ Test Case 1 — Successful Login
 
 Title: Successful login with valid credentials
@@ -24,7 +23,7 @@ Expected Result:
 
 User is redirected to the Home/Secure page
 
-A success message is displayed: “You logged into a secure area!”
+A success message is displayed: "You logged into a secure area!"
 
 ❌ Test Case 2 — Invalid Login
 
@@ -44,7 +43,7 @@ User remains on the Login screen
 
 An error message is displayed indicating invalid credentials
 
-2️⃣ Additional Test Coverage (Titles only)
+2) Additional Test Coverage (Titles only)
 
 Login with empty username and password
 
@@ -52,7 +51,7 @@ Login with valid username and empty password
 
 Login behavior when network connection is lost
 
-3️⃣ Bug Report (ONLY 1)
+3) Bug Report (ONLY 1)
 
 Title: Error message is partially hidden on small mobile screens
 
